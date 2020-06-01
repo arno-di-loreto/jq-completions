@@ -6,7 +6,7 @@ function _jq {
         {-Ldirectory,-L}"[Prepend directory to the search list for modules]:directory:_directories" \
         "*--arg[Usage --arg a v. Set variable \$a to value <v>. Also available as \$ARGS.named\[a\].]:name::value:" \
         "*--argjson[Usage --argjson a v. Set variable \$a to JSON value <v>. Also available as \$ARGS.named\[a\].]:name::value:" \
-        "--slurpfile[Usage --slurpfile a f. Set variable \$a to an array of JSON texts read from file <f>.]:file:_files" \
+        "--slurpfile[Usage --slurpfile a f. Set variable \$a to an array of JSON texts read from file <f>.]:name::file:_files" \
         "--args[Usage --args v1 v2. Positional string arguments available as \$ARGS.positional\[\].]" \
         "--jsonargs[Positional JSON arguments available as \$ARGS.positional\[\].]" \
         "--version[Output the jq version and exit with zero.]" \
